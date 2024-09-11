@@ -1,0 +1,15 @@
+{
+  "name": "pounce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.16.1",
+    "simple-json-db": "^2.0.0"
+  }
+}
