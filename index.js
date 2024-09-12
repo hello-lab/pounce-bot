@@ -20,7 +20,7 @@ const db = new JSONdb('storage.json');
 
 // Event triggered when the bot is ready and connected to Discord
 client.on('ready', () => {
-   db.set('cnt',1)
+   db.set('start',0)
     console.log('Logged in as' + client.user.tag);
 });
 
@@ -38,7 +38,7 @@ client.on('messageCreate', async(message) => {
     console.log(message)
     if (message.author.bot) return;
     const mentionRegex = new RegExp(`^<@${client.user.id}>`);
-    if (message.author.id=='658666010890600448')
+    if (message.author.id=='658666010890600448'||message.author.id=='634643358362370061')
       {  if (message.content.includes('send'))
         {    db.get('cnt')
             
