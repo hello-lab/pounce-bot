@@ -85,4 +85,4 @@ client.on('messageCreate', async(message) => {
 });
 //discord.com/api/oauth2/authorize?client_id=1130920493524983809&permissions=150528&scope=bot
 // Log in to Discord with your bot token
-client.login("MTEzMDkyMDQ5MzUyNDk4MzgwOQ.GN3p1n.VlPezVkfokIgAGwyW8YBGTWB3lDdutvsv_QxZ4");
+client.login("");
