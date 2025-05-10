@@ -93,18 +93,3 @@ https://discord.com/api/oauth2/authorize?client_id=YOUR_CLIENT_ID&permissions=15
 ```
 
 ---
-
-## 📃 License
-
-MIT License — free to use and modify.
-
----
-
-## 📌 Notes
-
-* Ensure your bot token is kept secure and **never pushed to public repositories**.
-* Modify the allowed admin IDs in the code to suit your needs.
-
----
-
-Want me to generate a `.gitignore` or sample `package.json` too? 👌
